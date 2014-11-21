@@ -3,9 +3,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Flipez' Blog
+title:            Flipez Blog
 tagline:          My private blog
-url:              http://flipez.de
+url:              https://flipez.de
 paginate:         1
 baseurl:          /
 author:
