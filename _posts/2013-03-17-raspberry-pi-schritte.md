@@ -2,7 +2,7 @@
 layout: post
 title: Raspberry Pi - Die ersten Schritte
 ---
-Heute wollen wir uns einmal um die minimal Installation eines Raspbian's auf dem Raspberry kümmern. Dazu brauchen wir ein paar Dinge:
+Heute wollen wir uns einmal um die minimal Installation eines Raspbian\`s auf dem Raspberry kümmern. Dazu brauchen wir ein paar Dinge:
 
 *   Raspberry Pi
 *   SD Karte + Kartenleser
@@ -14,7 +14,7 @@ Heute wollen wir uns einmal um die minimal Installation eines Raspbian's auf dem
 
 Als ersten formatieren wir die SD Karte ins FAT32 Format. Danach laden wir uns den Raspbian Installier herunter ([raspbian.org](http://www.raspbian.org/RaspbianInstaller "Raspian.org"))
 
-Dieser Installer führt die ersten Schritte mit Daten von der SD Karte aus und läd' dann die benötigten Daten nach. Deshalb immer auf die Internetverbindung achten.
+Dieser Installer führt die ersten Schritte mit Daten von der SD Karte aus und läd\` dann die benötigten Daten nach. Deshalb immer auf die Internetverbindung achten.
 
 Diese Daten entpacken wir dann direkt auf die SD Karte. Somit währen wir mit der Karte auch schon fertig und stecken sie in den Raspberry.
 
@@ -32,14 +32,18 @@ Jetzt sollte direkt der Installer starten. Dieser stellt uns jetzt einige Fragen
 *   Choose a mirror of the Debian archive: **mirrordirector.raspbian.org**
 *   Choose a mirror of the Debian archive: **/raspbian/**
 *   Choose a mirror of the Debian archive: Die Frage nach einem Proxy kann in den meisten Fällen mit **Enter** übersprungen werden
-*   Jetzt werden wir gefragt ob wir die Installation ohne Kernel fortsetzen wollen. Das beantworten wir mit** &lt;Yes&gt;**
+*   Jetzt werden wir gefragt ob wir die Installation ohne Kernel fortsetzen wollen. Das beantworten wir mit **&lt;Yes&gt;**
+
 Der Installer läd jetzt weitere Daten vom Webserver. Idealer Zeitpunkt den Kaffee anzusetzen.... Sind wir von der Kaffeemaschine zurück, können wir auch schon die Userdaten eingeben.
 
 *   Root Passwort ( Der root - Benutzer wird später zum Installieren von Paketen und bearbeiten von Dateien benötigt. )
 *   Vollständiger Name
 *   Benutzername
 *   Passwort für den Benutzer
-Jetzt stellen wir die Zeitzone ein ( in DE sollte das Berlin sein ). Dann schlägt uns der Installer vor, wie wir die Speicherkarte partitionieren können. Das könnte so aussehen:
+
+Jetzt stellen wir die Zeitzone ein ( in DE sollte das Berlin sein ).
+
+Dann schlägt uns der Installer vor, wie wir die Speicherkarte partitionieren können. Das könnte so aussehen:
 
 *   1 primary 78.6 MB B f fat32 /rpiboot
 *   2 primary 255.9 MB f swap swap

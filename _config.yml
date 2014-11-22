@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Flipez Blog
-tagline:          My private blog
+title:            "Flipez' Blog"
+tagline:          "Linux & IT-Fan, Nerd, Supertüp"
 url:              https://flipez.de
 paginate:         1
 baseurl:          /
@@ -17,3 +17,7 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/Flipez/flipez.github.io
+
+markdown: redcarpet
+highlighter: true
+hightlighter_options: ['lineanchors', 'linenos=table']
