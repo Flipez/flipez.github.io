@@ -314,7 +314,7 @@ tbody tr:nth-child(odd) th {
   color: #505050;
 }
 .masthead-title small {
-  font-size: 50%;
+  font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
@@ -469,4 +469,14 @@ a.pagination-item:hover {
   font-weight: bold;
   color: #c0c0c0;
   letter-spacing: 0;
+}
+
+.quote a:link { text-decoration: none; outline:none; }
+.quote a:visited { text-decoration: none; outline:none; }
+.quote a:hover { text-decoration: none; text-decoration:underline; }
+
+@media handheld {
+  .header-posts { display: none; }
+  .sidebar { display: none; }
+  .quote { display: none; }
 }
