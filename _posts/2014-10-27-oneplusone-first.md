@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OnePlus One: Unlock, Root und Cyanogenmod einrichten"
+title: "OnePlus One: Unlock, Root, CM-Mod"
 ---
 Hallo Zusammen,
 
