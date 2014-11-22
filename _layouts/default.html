@@ -4,17 +4,18 @@
   {% include head.html %}
 
   <body>
-
-    <div class="header-icons"><a href="mailto:blog.flipez.net"><img src="{{ site.baseurl }}public/email.png" alt=""></a></div>
-    <div class="header-icons"> <a href="https://flickr.com/photos/Flipez"><img src="{{ site.baseurl }}public/flickr.png" alt=""></a></div>
-    <div class="header-icons"><a href="https://github.com/Flipez"><img src="{{ site.baseurl }}public/github.png" alt=""></a></div>
-    <div class="header-icons"><a href="http://blog.flipez.de/atom.xml"><img src="{{ site.baseurl }}public/rss.png" alt=""></a></div>
-    <div class="header-icons"><a href="https://steamcommunity.com/id/flipez"><img src="{{ site.baseurl }}public/steam.png" alt=""></a></div>
-
+    <div class="sidebar">
+      <div class="header-icons"><a href="mailto:blog.flipez.net"><img src="{{ site.baseurl }}public/email.png" alt=""></a></div>
+      <div class="header-icons"> <a href="https://flickr.com/photos/Flipez"><img src="{{ site.baseurl }}public/flickr.png" alt=""></a></div>
+      <div class="header-icons"><a href="https://github.com/Flipez"><img src="{{ site.baseurl }}public/github.png" alt=""></a></div>
+      <div class="header-icons"><a href="http://blog.flipez.de/atom.xml"><img src="{{ site.baseurl }}public/rss.png" alt=""></a></div>
+      <div class="header-icons"><a href="https://steamcommunity.com/id/flipez"><img src="{{ site.baseurl }}public/steam.png" alt=""></a></div>
+    </div>
     <div class="header-posts">
       <ul>
         {% for post in site.posts %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          <li>{{ post.date | date_to_string }}<br />
+            <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
