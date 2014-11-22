@@ -428,3 +428,12 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+.header-icons {
+  position: abolute;
+  left: 10px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 48px;
+}
