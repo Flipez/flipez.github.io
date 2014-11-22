@@ -5,7 +5,7 @@ relative_permalinks: true
 # Setup
 title:            "Flipez' Blog"
 tagline:          "Linux & IT-Fan, Nerd, Supertüp"
-url:              https://flipez.de
+url:              http://blog.flipez.de
 paginate:         1
 baseurl:          /
 author:
