@@ -1,3 +1,7 @@
+---
+layout: post
+title: Raspberry Pi - Die ersten Schritte
+---
 Heute wollen wir uns einmal um die minimal Installation eines Raspbian's auf dem Raspberry kümmern. Dazu brauchen wir ein paar Dinge:
 
 *   Raspberry Pi
@@ -37,9 +41,9 @@ Der Installer läd jetzt weitere Daten vom Webserver. Idealer Zeitpunkt den Kaff
 *   Passwort für den Benutzer
 Jetzt stellen wir die Zeitzone ein ( in DE sollte das Berlin sein ). Dann schlägt uns der Installer vor, wie wir die Speicherkarte partitionieren können. Das könnte so aussehen:
 
-#1 primary 78.6 MB B f fat32 /rpiboot
-#2 primary 255.9 MB f swap swap
-#3 primary 3.6 GB f ext3 /
+*   1 primary 78.6 MB B f fat32 /rpiboot
+*   2 primary 255.9 MB f swap swap
+*   3 primary 3.6 GB f ext3 /
 
 Das bejahen wir mit **&lt;Finish partitioning and write changes to disk&gt;** und bestätigen mit **&lt;Yes&gt;**
 
