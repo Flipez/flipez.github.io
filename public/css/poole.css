@@ -475,7 +475,7 @@ a.pagination-item:hover {
 .quote a:visited { text-decoration: none; outline:none; }
 .quote a:hover { text-decoration: none; text-decoration:underline; }
 
-@media screen and (min-device-width: 320px) and (max-device-width : 480px) {
+@media  (max-width : 1919px) {
   .header-posts { display: none; }
   .sidebar { display: none; }
   .quote { display: none; }
