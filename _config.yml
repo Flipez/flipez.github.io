@@ -18,6 +18,6 @@ version:          1.0.0
 github:
   repo:           https://github.com/Flipez/flipez.github.io
 
-markdown: redcarpet
-highlighter: true
-hightlighter_options: ['lineanchors', 'linenos=table']
+#markdown: redcarpet
+highlighter: pygments
+#hightlighter_options: ['lineanchors', 'linenos=table']

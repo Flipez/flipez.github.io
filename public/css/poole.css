@@ -430,7 +430,7 @@ a.pagination-item:hover {
 }
 
 .sidebar {
-  position: abolute;
+  position: absolute;
   left: 10px;
   float: left;
 }

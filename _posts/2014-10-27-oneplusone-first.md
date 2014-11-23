@@ -10,9 +10,9 @@ Wichtig ist, dass wir die passenden USB Treiber und adb/fastboot korrekt eingeri
 
 Wir schauen also einmal nach ob denn unser OnePlus One auch brav mit uns spielen will.
 
-```bash
+{% highlight bash %}
 adb devices
-```
+{% endhighlight %}
 
 Das sollte dann etwa so aussehen:
 
