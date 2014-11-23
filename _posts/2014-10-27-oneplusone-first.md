@@ -16,37 +16,37 @@ adb devices
 
 Das sollte dann etwa so aussehen:
 
-```bash
+{% highlight bash %}
 List of devices attached
 1ce85e50        device
-```
+{% endhighlight %}
 
 Dann rebooten wir das Gerät ganz entspannt in den Bootloader ( Überraschung!) und ensperren diesen.
 
-```bash
+{% highlight bash %}
 adb reboot bootloader
 fastboot oem unlock
-```
+{% endhighlight %}
 
 In den meisten Fällen müsst ihr euch nun noch einmal durch die Startup-Einstellungen durklicken und das USB-Debugging wieder aktivieren.
 Dannach wird wieder in den Fastboot Modus gestartet und das recovery geflasht.
 
-```bash
+{% highlight bash %}
 adb reboot bootloader
 fastboot flash recovery openrecovery-twrp-2.8.0.1-bacon.img
-```
+{% endhighlight %}
 
 Danach starten wir das One in den Recovery Modus. Dazu einfach Leiser + Power gedrückt halten bis ihr das Logo seht. Dann aufhören da sonst das Handy wieder neu startet.
 
 Hier kann dann entweder per .zip, Sideload oder Push das entsprechende Image installiert werden. Wir werden das Heute einmal per Push machen.
 
-```bash
+{% highlight bash %}
 adb devices
    #  List of devices attached
    #  1ce85e50        recovery
 
 adb push cm-11-20141008-SNAPSHOT-M11-bacon.zip /sdcard/
    #  2799 KB/s (268409500 bytes in 93.642s)
-```
+{% endhighlight %}
 
 Dann wählen wir das Image einfach wie gewohnt aus und installieren es. Die GAPPS dürfen natürlich nicht vergessen werden. Dannach solltet ihr das ganz 'normale' CM auf eurem OnePlus One haben. Das ganze geht natürlich auch mit AOKP oä. Einfach die entsprechenden Images flashen.
