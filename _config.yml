@@ -5,9 +5,9 @@ relative_permalinks: true
 # Setup
 title:            "Flipez&#039;  Blog"
 tagline:          "Linux & IT-Fan, Nerd, Supertüp"
-url:              https://flipez.de/
+url:              https://flipez.de/blog/
 paginate:         1
-baseurl:          /blog/
+baseurl:          /
 author:
   name:           Robert Müller
   url:            https://flipez.de
