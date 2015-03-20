@@ -2,7 +2,7 @@
 layout: post
 title: "Filmtipp: CITIZENFOUR"
 ---
-![Citizenfour-Cover](/public/img/citizenfourcover.jpg "Citizenfour-Cover")
+![Citizenfour-Cover](/blog/public/img/citizenfourcover.jpg "Citizenfour-Cover")
 Damit hier auch mal wieder ein wenig Bewegung ist habe ich mir überlegt mal ein paar Worte über die Doku 'CITIZENFOUR' zu verlieren.
 
 Der Name Edward Snowden sollte inzwischen eigentlich fast jedem ein Begriff sein. Dieser Film ist eine Dokumentation über 'Ed' und wie er die Spionageaffäre auslöst. Begleitet wird er dabei von Laura Poitras welche auch Regie, Drehbuch, Produktion und so ziemlich alles andere auch an diesem Film übernimmt sowie Glenn Greenwald
