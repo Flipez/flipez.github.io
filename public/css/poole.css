@@ -490,6 +490,4 @@ a.pagination-item:hover {
 
 @media  (max-width : 1679px) {
   .header-posts { display: none; }
-  .sidebar { display: none; }
-  .quote { display: none; }
 }
