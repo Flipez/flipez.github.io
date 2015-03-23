@@ -437,7 +437,7 @@ a.pagination-item:hover {
 
 .header-icons {
   margin-top: 15px;
-  margin-left: 15px;
+  margin-right: 15px;
   width: 48px;
   height: 48px;
   float: left;
@@ -475,10 +475,9 @@ a.pagination-item:hover {
 }
 
 .quote {
-  float: left;
-  position: absolute;
   top: 70px;
   left: 15px;
+  margin-top: 20px;
   font-size: 75%;
   font-weight: bold;
   color: #c0c0c0;

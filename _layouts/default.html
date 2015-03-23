@@ -4,21 +4,6 @@
   {% include head.html %}
 
   <body>
-    <div class="sidebar">
-      <div class="header-icons icon-email"><a href="mailto:blog.flipez.net"><img src="{{ site.baseurl }}public/email-48.png" alt=""></a></div>
-      <div class="header-icons icon-flickr"> <a href="https://flickr.com/photos/Flipez"><img src="{{ site.baseurl }}public/flickr-48.png" alt=""></a></div>
-      <div class="header-icons icon-github"><a href="https://github.com/Flipez"><img src="{{ site.baseurl }}public/github-48.png" alt=""></a></div>
-      <div class="header-icons icon-rss"><a href="{{ site.baseurl }}atom.xml"><img src="{{ site.baseurl }}public/rss-48.png" alt=""></a></div>
-      <div class="header-icons icon-steam"><a href="https://steamcommunity.com/id/flipez"><img src="{{ site.baseurl }}public/steam-48.png" alt=""></a></div>
-    </div>
-    <div class="quote">
-        <p>
-          Proudly made without PHP, MySQL and JavaScript. <br />
-          Build with Markdown + Jekyll.
-        </p>
-        Optimized for 1680x1050+<br />
-        <a href="http://validator.w3.org/check?uri={{ site.url }}{{ site.baseurl }}">HTML5 valid</a>
-    </div>
     <div class="header-posts">
       <ul>
         {% for post in site.posts %}
@@ -32,8 +17,43 @@
       <header class="masthead">
         <h2 class="masthead-title">
           <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
+          <small>{{ site.tagline }}</small><br />
         </h2>
+        <div class="header-icons icon-email">
+          <a href="mailto:rm@flipez.net">
+            <img src="{{ site.baseurl }}public/email-48.png" alt="">
+          </a>
+        </div>
+        <div class="header-icons icon-flickr">
+          <a href="https://flickr.com/photos/Flipez">
+            <img src="{{ site.baseurl }}public/flickr-48.png" alt="">
+          </a>
+        </div>
+        <div class="header-icons icon-github">
+          <a href="https://github.com/Flipez">
+            <img src="{{ site.baseurl }}public/github-48.png" alt="">
+          </a>
+        </div>
+        <div class="header-icons icon-rss">
+          <a href="{{ site.baseurl }}atom.xml">
+            <img src="{{ site.baseurl }}public/rss-48.png" alt="">
+          </a>
+        </div>
+        <div class="header-icons icon-steam">
+          <a href="https://steamcommunity.com/id/flipez">
+            <img src="{{ site.baseurl }}public/steam-48.png" alt="">
+          </a>
+        </div>
+        <div class="quote">
+          <p>
+            Proudly made without PHP, MySQL and JavaScript. <br />
+            Build with Markdown + Jekyll.
+          </p>
+          <p>
+            pgp key <a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0x141BB974FEF7234B">FEF7234B</a><br />
+            fingerprint BEC0 476C F3F6 9797 B29D 3B8D 141B B974 FEF7 234B
+          </p>
+        </div>
       </header>
 
       <main>
@@ -42,10 +62,11 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved. Any questions? Mail me at <u>blog at flipez dot net</u>
+          <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>
+          Any feedback? Drop a mail at <u>rm at flipez dot net</u> You may use my PGP Key 
+          <a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0x141BB974FEF7234B">FEF7234B</a><br />
         </small>
       </footer>
     </div>
-
   </body>
 </html>
