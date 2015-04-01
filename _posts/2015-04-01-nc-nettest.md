@@ -9,7 +9,7 @@ Man stellt über netcat einfach /dev/zero zur verfügung (ggf. mehrfach wenn auf
 
 
 {% highlight bash %}
-cat /dev/zero | nc <port>
+cat /dev/zero | nc -l -p <port>
 {% endhighlight %}
 
 Auf dem Client greift man so auf die Daten zu:
