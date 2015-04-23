@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ShortTip: Android Cache & Dalvik Cache?"
+title: "ShortTip: Android Cache + Dalvik Cache?"
 ---
 Viele werden auf ihrer Reise durch die Custom-ROM Welt schon oft den Cache und auch den Dalvik-Cache geleert haben. Aber was ist das eigentlich?
 
