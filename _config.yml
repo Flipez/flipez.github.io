@@ -1,5 +1,5 @@
 # Permalinks
-permalink:        /blog/:year/:month/:day/:title/
+permalink:        /:year/:month/:day/:title/
 
 # Setup
 title:            "Flipez&#039;  Blog"
