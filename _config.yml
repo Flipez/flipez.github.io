@@ -1,11 +1,11 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            "Flipez&#039;  Blog"
 tagline:          "Linux & IT-Fan, Nerd, Supertüp"
 url:              https://flipez.de
+gems:             [jekyll-paginate]
 paginate:         1
 baseurl:          /blog/
 author:
