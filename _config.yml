@@ -4,10 +4,10 @@ permalink:        /:year/:month/:day/:title/
 # Setup
 title:            "Flipez&#039;  Blog"
 tagline:          "Linux & IT-Fan, Nerd, Supertüp"
-url:              https://flipez.de
+url:              https://blog.flipez.de
 gems:             [jekyll-paginate]
 paginate:         1
-baseurl:          /blog/
+baseurl:          /
 author:
   name:           Robert Müller
   url:            https://flipez.de
